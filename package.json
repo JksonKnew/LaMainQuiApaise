@@ -2,7 +2,6 @@
   "name": "lmqa",
   "private": true,
   "version": "0.0.0",
-  "homepage" : "https://JksonKnew.github.io/LaMainQuiApaise/",
   "type": "module",
   "scripts": {
     "dev": "vite",
