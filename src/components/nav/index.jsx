@@ -7,7 +7,7 @@ function NavBar() {
         <React.Fragment>
             <div className="navbarContainer">
                 <div className="logoContainer">./</div>
-                <div>
+                <div className="navLinkContainer">
                     <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
                     <Link to="/oizad">Error</Link>
