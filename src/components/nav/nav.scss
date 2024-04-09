@@ -1,3 +1,15 @@
+@media (prefers-color-scheme: dark) {
+    .navbarContainer {
+        background-color: #383838;
+        a {
+            color: white;
+        }
+        .navActive {
+            background-color: #4b4b4b;
+        }
+    }
+  }
+
 .navbarContainer {
     background-color: #fff;
     position: absolute;
@@ -13,12 +25,15 @@
     .navLinkContainer {
         display: flex;
         gap: 20px;
+        a {
+            padding: 5px 10px;
+            border-radius: 20px;
+            color: rgb(58, 58, 58);
+        }
+        .navActive {
+            background-color: #f4ecff;
+        }
     }
 
 }
 
-@media (prefers-color-scheme: dark) {
-    .navbarContainer {
-        background-color: #383838;
-    }
-  }
